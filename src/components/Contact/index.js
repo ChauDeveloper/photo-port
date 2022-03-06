@@ -3,7 +3,7 @@ import { validateEmail } from '../../utils/helpers';
 
 
 
-function ContactForm() {
+function Contact() {
 
 
   const [errorMessage, setErrorMessage] = useState('');
@@ -72,4 +72,4 @@ function ContactForm() {
       )
     }
     
-    export default ContactForm;
+    export default Contact;
